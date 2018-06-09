@@ -51,4 +51,10 @@ body {
 }
 .current {
 	font-size: 2vw;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+.current span{
+	margin-bottom: 2vw;
 }
