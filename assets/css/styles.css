@@ -22,7 +22,27 @@ body {
 }
 .title {
 	font-size: 3vw;
-	margin-bottom: 3vw;
+	margin-bottom: 2vw;
+}
+.color1,
+.color2 {
+	border:0;
+	outline: none;
+	cursor: pointer;
+	padding:0;
+	background-color: transparent;
+	width: 6vw;
+	height: 3vw;
+	-webkit-appearance: none;
+	border-radius: 30%;
+	overflow: hidden;
+	margin-bottom: 6vw;
+}
+.color1 {
+	margin-right: 3vw;
+}
+.color2 {
+	margin-left: 3vw;
 }
 .current {
 	font-size: 2vw;
