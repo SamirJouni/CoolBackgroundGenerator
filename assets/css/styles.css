@@ -19,6 +19,7 @@ body {
 }
 .heading {
 	font-size: 5vw;
+	margin-top: 4vw;
 	margin-bottom: 6vw;
 	font-family: 'Ubuntu', sans-serif;
 }
@@ -67,4 +68,34 @@ body {
 }
 #color2 {
 	color:#7fbb00;
+}
+
+/* Mobile Responsive Design */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+	.heading {
+			text-align: center;
+			font-size: 12vw;
+			margin-top: 8vw;
+			margin-bottom: 12vw;
+		}
+		.title {
+			font-size: 7vw;
+			margin-bottom: 12vw;
+		}
+		.colorInput {
+			margin-bottom: 10vw;
+			width: 20vw;
+			height: 11vw;
+			margin-left: 7vw;
+    	margin-right: 7vw;
+		}
+		.current {
+			font-size: 6vw;
+		}
+		.current span {
+			margin-bottom: 6vw;
+	}
+
 }
