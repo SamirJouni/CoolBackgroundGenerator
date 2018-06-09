@@ -26,8 +26,7 @@ body {
 	font-size: 3vw;
 	margin-bottom: 2vw;
 }
-.colorInput1,
-.colorInput2 {
+.colorInput {
 	border:0;
 	border-radius: 30%;
 	overflow: hidden;
@@ -42,12 +41,9 @@ body {
 	height: 3vw;
 
 	-webkit-appearance: none;
-}
-.colorInput1 {
-	margin-right: 3vw;
-}
-.colorInput2 {
+
 	margin-left: 3vw;
+	margin-right: 3vw;
 }
 .current {
 	font-size: 2vw;
@@ -57,4 +53,18 @@ body {
 }
 .current span{
 	margin-bottom: 2vw;
+}
+#color1,
+#color2 {
+	text-shadow:
+	-.3vw -.3vw 1vw #ffffff,
+	 .3vw -.3vw 1vw #ffffff,
+	 -.3vw .3vw 1vw #ffffff,
+		.3vw .3vw 1vw #ffffff;
+}
+#color1 {
+	color:#14a3dc;
+}
+#color2 {
+	color:#7fbb00;
 }
